@@ -1,0 +1,8 @@
+
+[4msrc/style.scss[24m
+  [2m2:5[22m   [33mwarning[39m  Expected indentation of 2 space but found 4                                [2mindentation[22m
+  [2m2:12[22m  [33mwarning[39m  Color 'red' should be written in its hexadecimal form #ff0000              [2mno-color-keywords[22m
+  [2m2:12[22m  [33mwarning[39m  Color literals such as 'red' should only be used in variable declarations  [2mno-color-literals[22m
+
+[33m[1m✖ 3 problems (0 errors, 3 warnings)
+[22m[39m
