@@ -32,5 +32,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-sass-lint');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.registerTask('style', ['sass']);
-	grunt.registerTask('default', ['sass']);
+	grunt.registerTask('default', ['sass', 'sasslint']);
 };
