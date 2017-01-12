@@ -1,3 +1,20 @@
+@mixin no-content() {
+	right: 4px;
+}
+@mixin button-hover($name, $part: null) {
+	.nir {
+		@content;
+	}
+}
+
 .nir {
-    top: 0;
+	top: 0;
+	@include button-hover(top-bar-button-content) {
+		g {
+			fill: red;
+		}
+		path {
+			fill: blue;
+		}
+	}
 }
