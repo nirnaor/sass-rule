@@ -8,7 +8,6 @@
 }
 
 .nir {
-	top: 0;
 	@include button-hover(top-bar-button-content) {
 		g {
 			fill: red;
@@ -17,4 +16,6 @@
 			fill: blue;
 		}
 	}
+	top: 0;
+	@include no-content()
 }
